@@ -3,7 +3,10 @@ void setup() {
   pinMode(3,INPUT);
   pinMode(4,OUTPUT);
   pinMode(5,INPUT);
-  pinMode(9,OUTPUT)
+  pinMode(9,OUTPUT);
+  pinMode(13,INPUT);
+  pinMode(12,INPUT);
+  pinMode(10,OUTPUT);
 }
 
 void loop() {
@@ -14,7 +17,7 @@ void loop() {
  digitalWrite(3,0);
  digitalWrite(4,1);
  digitalWrite(5,0);
- delay(10);
+ delay(500);
  }
  else if(a==0){
  digitalWrite(2,0);
@@ -22,7 +25,7 @@ void loop() {
  digitalWrite(4,0);
  digitalWrite(5,1);
  digitalWrite(11,1);
- delay(10); }
+ delay(500); }
  /*else if(a==1&&b==1){
  digitalWrite(3,0);
  digitalWrite(4,1);
