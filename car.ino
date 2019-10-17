@@ -45,6 +45,20 @@ void loop() {
  digitalWrite(5,0);
    delay(15);
  }
+   else if(a==7){
+ digitalWrite(2,0);
+ digitalWrite(3,1);
+ digitalWrite(4,0);
+ digitalWrite(5,1);
+ digitalWrite(11,1);
+ delay(500); }
+   else if(a==89){
+ digitalWrite(2,0);
+ digitalWrite(3,1);
+ digitalWrite(4,0);
+ digitalWrite(5,1);
+ digitalWrite(11,1);
+ delay(500); }
  else if(a==0){
  digitalWrite(2,0);
  digitalWrite(3,1);
