@@ -14,7 +14,7 @@ void loop() {
  digitalWrite(3,0);
  digitalWrite(4,1);
  digitalWrite(5,0);
- delay(10);
+ delay(15);
  }
  else if(a==0){
  digitalWrite(2,0);
@@ -22,7 +22,7 @@ void loop() {
  digitalWrite(4,0);
  digitalWrite(5,1);
  digitalWrite(11,1);
- delay(10); }
+ delay(15); }
  /*else if(a==1&&b==1){
  digitalWrite(3,0);
  digitalWrite(4,1);
@@ -40,5 +40,5 @@ void loop() {
  digitalWrite(4,0);
  digitalWrite(6,0);
  digitalWrite(5,0);
- delay(10);}*/
+ delay(15);}*/
 }
